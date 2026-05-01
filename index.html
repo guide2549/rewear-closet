@@ -1,116 +1,25 @@
 <!DOCTYPE html>
 <html lang="th">
 <head>
-  <meta charset="UTF-8">
-  <title>ReWear Closet</title>
-  <style>
-    body {
-      font-family: Arial;
-      margin:0;
-      background:#f5f5f5;
-    }
-
-    header {
-      background:#ff5c8a;
-      color:#fff;
-      padding:20px;
-      text-align:center;
-    }
-
-    .container {
-      padding:20px;
-    }
-
-    .grid {
-      display:grid;
-      grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
-      gap:20px;
-    }
-
-    .card {
-      background:#fff;
-      padding:10px;
-      border-radius:15px;
-      box-shadow:0 2px 8px rgba(0,0,0,0.1);
-      text-align:center;
-      transition:0.3s;
-    }
-
-    .card:hover {
-      transform:scale(1.05);
-    }
-
-    img {
-      width:100%;
-      height:220px;
-      object-fit:cover;
-      border-radius:10px;
-    }
-
-    button {
-      background:#ff5c8a;
-      color:#fff;
-      border:none;
-      padding:10px;
-      border-radius:8px;
-      cursor:pointer;
-    }
-
-    button:hover {
-      background:#e14a75;
-    }
-  </style>
+<meta charset="UTF-8">
+<title>ReWear Closet</title>
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-<header>
-  <h1>ReWear Closet 👕</h1>
-  <p>เสื้อผ้ามือสอง สไตล์เกาหลี ราคาน่ารัก</p>
-</header>
-
+<header><h1>ReWear Closet 👕</h1></header>
+<nav>
+<a href="index.html">หน้าแรก</a>
+<a href="shop.html">สินค้า</a>
+<a href="review.html">รีวิว</a>
+<a href="about.html">เกี่ยวกับ</a>
+<a href="contact.html">ติดต่อ</a>
+</nav>
 <div class="container">
-  <h2>สินค้าแนะนำ</h2>
-
-  <div class="grid">
-
-    <div class="card">
-      <img src="cloth1.png">
-      <h3>เสื้อครอปน่ารัก</h3>
-      <p>ราคา: 120 บาท</p>
-      <button>ซื้อสินค้า</button>
-    </div>
-  
-    <div class="card">
-      <img src="cloth2.png">
-      <h3>เสื้อยืดวินเทจ</h3>
-      <p>ราคา: 150 บาท</p>
-      <button>ซื้อสินค้า</button>
-    </div>
-  
-    <div class="card">
-      <img src="cloth3.png">
-      <h3>กางเกงยีนส์โอเวอร์ไซส์</h3>
-      <p>ราคา: 250 บาท</p>
-      <button>ซื้อสินค้า</button>
-    </div>
-  
-    <div class="card">
-      <img src="cloth4.png">
-      <h3>เดรสน่ารัก</h3>
-      <p>ราคา: 180 บาท</p>
-      <button>ซื้อสินค้า</button>
-    </div>
-  
-    <div class="card">
-      <img src="cloth5.png">
-      <h3>เสื้อแฟชั่นเกาหลี</h3>
-      <p>ราคา: 140 บาท</p>
-      <button>ซื้อสินค้า</button>
-    </div>
-  
-  </div>
+<h2>สินค้าแนะนำ</h2>
+<div class="grid">
+<div class="card"><img src="cloth1.png"><h3>เสื้อครอป</h3></div>
+<div class="card"><img src="cloth2.png"><h3>เสื้อยืด</h3></div>
 </div>
-
+</div>
 </body>
 </html>
